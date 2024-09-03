@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de Codar 2</title>
+</head>
+<body>
+
+    <script>
+        var nome_do_carro = "Fusca";
+        console.log(nome_do_carro);
+
+        var nome_do_usuario = prompt("Informe o seu nome:");
+        console.log("Olá, " + nome_do_usuario);
+
+        var nome_do_usuario = prompt("Informe o seu nome:");
+        var idade = prompt("Informe a sua idade:");
+        console.log("Olá, " + nome_do_usuario + ", sua idade é " + idade);
+
+        var base = parseFloat(prompt("Informe o valor da base do retângulo:"));
+        var altura = parseFloat(prompt("Informe o valor da altura do retângulo:"));
+        var area_retangulo = base * altura;
+        console.log("A área do retângulo é " + area_retangulo);
+
+        var diagonal_maior = parseFloat(prompt("Informe o valor da diagonal maior do losango:"));
+        var diagonal_menor = parseFloat(prompt("Informe o valor da diagonal menor do losango:"));
+        var area_losango = (diagonal_maior * diagonal_menor) / 2;
+        console.log("A área do losango é " + area_losango);
+
+        var base_maior = parseFloat(prompt("Informe o valor da base maior do trapézio:"));
+        var base_menor = parseFloat(prompt("Informe o valor da base menor do trapézio:"));
+        var altura_trapezio = parseFloat(prompt("Informe a altura do trapézio:"));
+        var area_trapezio = ((base_maior + base_menor) * altura_trapezio) / 2;
+        console.log("A área do trapézio é " + area_trapezio);
+    </script>
+</body>
+</html>
